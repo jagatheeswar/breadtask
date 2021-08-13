@@ -90,21 +90,15 @@ table{
     margin-left: 3px;
 
 }
-
  td#tdtwo p.fitness{
     margin-left: 33px;
- 
 }
-
-
  #tdthree{
      vertical-align: top;
     
  }
  #tdthree div{
      position: relative ;
-
-     
      vertical-align:baseline;
  }
  #tdthree div p{
@@ -115,10 +109,8 @@ table{
     background:#7352FF;
     border-radius:10px;
     text-align:center;
-
 }
  #tdthree div p.ptwo{
-     
     width:10rem;
     height:40px;
     margin:0 auto;
@@ -141,22 +133,17 @@ table{
     }
     td#tdtwo div#tdtwodiv p.wellness{
        margin-left: 2px;
-   
    }
-   
     td#tdtwo p.fitness{
        margin-left: 22px;
-    
    }
-   
     }
     @media only screen and (max-width: 634px) {
         #forwhiteborder {
             width: 95%;
         }
         #tdthree div p,#tdthree div p.ptwo{
-            width:6rem;
-            
+            width:6rem;        
         }
         }
         @media only screen and (max-width: 584px) {
@@ -165,31 +152,23 @@ table{
             }
             td#tdtwo div#tdtwodiv p.yoga,td#tdtwo div#tdtwodiv p.wellness{
                 margin-left: 11px;
-            
             }
             td#tdtwo div#tdtwodiv p.wellness{
                margin-left: 3px;
-           
            }
-           
             td#tdtwo p.fitness{
                margin-left: 11px;
-            
            }
-           
             }
             @media only screen and (max-width: 584px) {
                 #forwhiteborder {
                     width: 100%;
                 }
-
                 }
                 @media only screen and (max-width: 560px) {
-                    
                     #forwhiteborder{
                         border: 0px solid white;
                     }
-
                     }
                             #generalbuttons:hover{
                                 background-color: #7352FF;
@@ -205,6 +184,3 @@ table{
                             #subscribebtn:hover{
                                 transform: scale(1.1);
                             }
-                            
-
-                            

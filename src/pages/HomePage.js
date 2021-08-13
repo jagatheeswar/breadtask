@@ -40,7 +40,7 @@ function HomePage(){
                 <Slider image={yogaone} desc={"Tuesday - Online class Aug 12, 9:00 AM to 11:00 AM IST"} />
                 </div>
 
-                <p className="mt-5" style={{textAlign:"center"}}><span style={{border:'2px solid white',borderRadius:'50%',padding:'8px'}} className="arrow" onClick={scrollfront}><i className="fa fa-arrow-right"></i></span>&nbsp;&nbsp;&nbsp;<span className="arrow" onClick={scrollback} style={{border:'2px solid white',borderRadius:'50%',padding:'8px'}}><i className="fa fa-arrow-left"></i></span></p>
+                <p className="mt-5" style={{textAlign:"center"}}><span style={{border:'2px solid white',borderRadius:'50%',paddingRight:'8px',paddingLeft:'8px',paddingTop:'4px',paddingBottom:'4px'}} className="arrow" onClick={scrollfront}><i className="fa fa-arrow-right"></i></span>&nbsp;&nbsp;&nbsp;<span className="arrow" onClick={scrollback} style={{border:'2px solid white',borderRadius:'50%',paddingRight:'8px',paddingLeft:'8px',paddingTop:'4px',paddingBottom:'4px'}}><i className="fa fa-arrow-left"></i></span></p>
                 
                 <br></br><br></br><br></br>
                 

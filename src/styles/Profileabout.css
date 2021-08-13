@@ -1,7 +1,5 @@
-@media only screen and (max-width:480px) {
-            
+@media only screen and (max-width:480px) {      
     #tdone{
-    
         width: 100px;
     }
     #tdone img{
@@ -22,14 +20,11 @@ padding-top: 3px;
  vertical-align: middle;
  width: 5rem;
 }
-
 #tdthree div p,#tdthree div p.ptwo{
 font-size: small;
-width:5rem;
-     
+width:5rem;  
 }
 }
-
 .togglediv{
 display: none;
 }
@@ -39,19 +34,13 @@ display: none;
 }
 td#tdtwo div#tdtwodiv p.yoga,td#tdtwo div#tdtwodiv p.wellness{
 margin-left: 33px;
-
 }
 td#tdtwo div#tdtwodiv p.wellness{
 margin-left: 10px;
-
-
 }
-
 td#tdtwo p.fitness{
 margin-left: 33px;
-
 }
-
 .togglediv{
 display: block;
 }          
@@ -65,17 +54,14 @@ font-weight: bolder;
 background:#7352FF;
 border-radius:10px;
 text-align:center;
-
 }
 #contactme{
-
 width:1rem !important;
 font-weight: bolder;
 background: white;
 border: 1px solid black;
 border-radius:10px;
 text-align:center;
-
 }
 .name{
 font-weight: bolder;
@@ -92,9 +78,7 @@ text-transform: capitalize;
 background-color: #d1d1d1;
 border-radius: 10px;
 }
-
 @media only screen and (max-width: 991px) {
-
 p.buttons{
 display: inline-block;
 width: 60px;
@@ -105,7 +89,6 @@ background-color: #d1d1d1;
 border-radius: 10px;
 }
 }
-
 .bodyflex{
 display: flex;
 justify-content: center;
@@ -121,7 +104,6 @@ padding: 0.4%;
 }
 #videotext{
 flex: 1;
-
 /* Check out my video about 30 min yoga for beginners */
 font-weight: bolder;
 font-style: normal;
@@ -143,32 +125,27 @@ animation-direction: alternate;
 color: #7352FF;
 font-size: large;
 font-weight: bold;
-
 }
 @keyframes fromotion {
 0%   {left: 0px; top: 0px;}
 50%  { left: 40%; top: 0px;}
 100%  { left: 0px; top: 0px;}
-
 }
 @media only screen and (max-width: 991px) {
 .bodyflex {
 flex-direction: column;
 }
 }
-
 @media only screen and (max-width: 491px) {
     #video{
         margin-left: 4% !important;
     }
     }
-
 @media only screen and (max-width: 991px) {
     #contactmeani {
         display: none;
     }
     #video{
-    
         width: 90%;
         margin-left: 30px;
         justify-content: center;
@@ -190,7 +167,6 @@ flex-direction: column;
 #subscribe p{
     margin-left: 0%;
 }
-
     #subscribebtn{
         font-size:large;
         font-weight: bold;
@@ -209,12 +185,9 @@ flex-direction: column;
             margin-left:1% ;
             border: 0.5px solid rgb(124, 124, 124);
             padding: 2%;
-        
         }
-    
         }
         @media only screen and (max-width: 1070px) {
-           
             #subscribebtn{
                 font-size:medium;
                 font-weight: bold;
@@ -223,17 +196,14 @@ flex-direction: column;
                 height: 40px;
                 width: 100px !important;
                 background-color: #7352FF;
-            }
-        }
-        
+            }}
         @media screen and (min-width:400px) and (max-width:700px){
             #profile{
                 height:fit-content;
         }       
         #forwhiteborder{
             height: fit-content;
-        }
-         }
+        }}
          #slider{
             width:100%;
         background-color: black;
@@ -249,3 +219,12 @@ flex-direction: column;
 
              text-align: center;
          }
+         @media screen and (min-width:1000px) and (max-width:1200px){
+            #subscribe{ 
+            margin-top: 30%;
+        }    }
+        @media screen and (min-width:1200px) and (max-width:1400px){
+            #subscribe{
+            
+            margin-top: 20%;
+        }    }

@@ -1,16 +1,12 @@
-
                     #footer{
-                        
                         width: 100%;
                         height: fit-content;
                         background-color: #7352FF;
                     }
                     #footer p#powered{
-                        padding-top: 3px;
-                        
+                        padding-top: 3px;                        
                     }
 #footer p{
-
     padding: 0px;
     margin: 0px;
     text-align: center;
@@ -20,8 +16,6 @@
                         align-items: center;
                         vertical-align: middle;
 }
-
-
                     #footer p img{
                         color: white;
                         font-size: large;
@@ -35,18 +29,14 @@
                         color: white;
                     }
        span#tpa{
-           
-        
-           font-size: x-large;
+        font-weight: bold;
+           font-size: small;
            float: right;
            text-align: end;
            color: white;
-           
        }             
-
        @media only screen and (min-width: 991px) {
     
-        
         #footer p{
             text-align: start;
             color: white;
@@ -54,13 +44,11 @@
             position: relative;
             top: -8px;
         }
-
         }
     .hide{
         display: none;
     }
     .hideone{
-        
         color: red;
         font-size: larger;
         display: block;

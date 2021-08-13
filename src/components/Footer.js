@@ -14,10 +14,10 @@
                 <i className="fa fa-facebook"></i>&nbsp;&nbsp;
                 <i className="fa fa-twitter"></i>&nbsp;&nbsp;
                 <i className="fa fa-linkedin"></i>&nbsp;
-                <span style={{textAlign:'end',float:'right'}} className="lasthide">Terms &nbsp; Privacy &nbsp; About</span>
+                <span style={{textAlign:'end',float:'right',fontSize:'15px'}} className="lasthide">Terms &nbsp; Privacy &nbsp; About</span>
                 </p>
                 <span id="tpa" className="hids lasthid" style={{color:'white',paddingTop:'0px'}}>Terms &nbsp; Privacy &nbsp; About</span> 
-                <span id="rights" className="hide text-lg" style={{fontSize:'20px'}}>Bread 2021 All rights reserved</span> 
+                <span id="rights" className="hide text-lg" style={{fontSize:'15px'}}>Bread 2021 All rights reserved</span> 
                 <br></br>
                 
             </div> 

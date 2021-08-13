@@ -37,7 +37,7 @@ function Profile(){
 </table>
 <Profileabout />
 <div id="subscribe" >
-  <p className="">Subscribe to my profile and never miss another update from me.</p>
+  <p className="text-lg" style={{fontSize:'20px'}}>Subscribe to my profile and never miss another update from me.</p>
    <div class="form-group">
     
     <input type="password" id="emailinput" placeholder="Enter your Email" />
